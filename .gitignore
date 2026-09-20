@@ -1,0 +1,24 @@
+# Environment
+.env
+.env.local
+
+# Rust
+/cli/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Supabase local
+.supabase/
+
+# Build artifacts
+*.log

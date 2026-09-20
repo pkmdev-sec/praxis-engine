@@ -1,0 +1,26 @@
+[package]
+name = "learn"
+version = "0.1.0"
+edition = "2021"
+description = "Praxis Engine CLI - Semantic learning retrieval for AI agents"
+authors = ["pkmdev-sec"]
+
+[[bin]]
+name = "learn"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenvy = "0.15"
+dirs = "5.0"
+anyhow = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true

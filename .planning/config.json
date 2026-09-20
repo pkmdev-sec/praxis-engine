@@ -1,0 +1,10 @@
+{
+  "project": "praxis-engine",
+  "version": "0.1.0",
+  "phases": ["foundation", "rust-cli", "learning-format", "meta-learnings", "integration"],
+  "current_phase": "foundation",
+  "supabase": {
+    "url": "https://fwfipnirpdtqijzlhika.supabase.co",
+    "table": "learnings"
+  }
+}
