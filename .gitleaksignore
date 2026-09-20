@@ -1,4 +1,4 @@
 # Documentation placeholders for caller-supplied Supabase service and anon keys.
-e9b5531bd5f52b4dbd23b3e28eacc22a75070e69:SETUP.md:curl-auth-header:54
-e9b5531bd5f52b4dbd23b3e28eacc22a75070e69:SETUP.md:curl-auth-header:65
-e9b5531bd5f52b4dbd23b3e28eacc22a75070e69:README.md:curl-auth-header:122
+d5350b42e216268e498ca6a2d32ca7751fa90c7e:SETUP.md:curl-auth-header:54
+d5350b42e216268e498ca6a2d32ca7751fa90c7e:SETUP.md:curl-auth-header:65
+d5350b42e216268e498ca6a2d32ca7751fa90c7e:README.md:curl-auth-header:122
